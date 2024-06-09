@@ -1,0 +1,24 @@
+program Example9;
+var
+  i: Integer;
+begin
+b:=10;
+  if not(i < 10) then
+  begin
+    i := 10;
+    i := i - 1;
+    if i = 9 then 
+    begin
+    	write(i);
+    end
+    else
+    begin
+    	write(i - 1);
+    end;
+  end
+  else
+  begin
+    i := 20;
+    write(i);
+  end;
+end.
